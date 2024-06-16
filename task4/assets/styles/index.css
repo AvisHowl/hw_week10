@@ -1,0 +1,39 @@
+.heading {
+  text-align: center;
+  color: pink;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.gallery__item {
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button--total {
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  color: black;
+  background-color: pink;
+}
+.button--total:hover {
+  cursor: pointer;
+}
+
+.total {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}/*# sourceMappingURL=index.css.map */

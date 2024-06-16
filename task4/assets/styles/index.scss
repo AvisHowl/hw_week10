@@ -1,0 +1,38 @@
+.heading {
+	text-align: center;
+	color: pink;
+	margin-bottom: 50px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	&__item {
+		width: 400px;
+		object-fit: cover;
+	}
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	&--total {
+		width: 200px;
+		height: 50px;
+		text-transform: uppercase;
+		color: black;
+		background-color: pink;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+.total {
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}

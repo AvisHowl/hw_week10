@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/styles/index.css" />
+		<title>Моя галлерея</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="heading">Моя галлерея</h1>
+		</header>
+		<main>
+			<div class="gallery">
+				<img
+					class="gallery__item"
+					src="./assets/images/img-1.jpg"
+					alt="Art piece"
+				/>
+				<img
+					class="gallery__item"
+					src="./assets/images/img-2.jpg"
+					alt="Art piece"
+				/>
+			</div>
+			<div class="button">
+				<button
+					class="button--total"
+					onclick="calculateTotalPrice(quantity = 2, price = 15000000)"
+				>
+					Узнать стоимость
+				</button>
+			</div>
+			<p class="total"></p>
+		</main>
+		<script src="./assets/scripts/index.js"></script>
+	</body>
+</html>

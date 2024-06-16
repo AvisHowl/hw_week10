@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/styles/index.css" />
+		<title>Cat Gallery</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1 class="heading">Cat Gallery</h1>
+			</header>
+			<main class="main">
+				<div class="gallery">
+					<img
+						class="gallery__img"
+						id="catImage"
+						src="./assets/images/cat-1.jpg"
+						alt="Cat"
+					/>
+				</div>
+				<div class="buttons">
+					<button class="buttons--prev" onclick="changeImagePrev()">
+						Previous
+					</button>
+					<button class="buttons--next" onclick="changeImageNext()">
+						Next
+					</button>
+				</div>
+			</main>
+		</div>
+		<script src="./assets/scripts/index.js"></script>
+	</body>
+</html>
